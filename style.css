@@ -645,9 +645,4 @@ width: 95%;
   .bg-text:after {
     right: 0;
   }
-    .banner-title {
-    text-align: left !important;
-    margin-left: 0;
-    padding-left: 0;
-}
 }
