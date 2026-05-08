@@ -1,3 +1,26 @@
+/*
+Theme Name: Julie Creative Portfolio
+Theme URI: https://templatesjungle.com/
+Author: TemplatesJungle
+Author URI: https://templatesjungle.com/
+Description: Julie Creative Portfolio is specially designed product packaged for designers portfolio websites.
+Version: 1.1
+*/
+
+/*--------------------------------------------------------------
+This is main CSS file that contains custom style rules used in this template
+--------------------------------------------------------------*/
+
+/*------------------------------------*\
+    Table of contents
+\*------------------------------------*/
+/*------------------------------------------------
+CSS STRUCTURE:
+
+1. VARIABLES
+2. GENERAL TYPOGRAPHY
+
+--------------------------------------------------------------*/
 :root,
 [data-bs-theme=light] {
   --heading-font: "Roboto", Verdana, serif;
@@ -17,12 +40,12 @@
   --bs-body-color: #333;
   --bs-body-color-rgb: 51, 51, 51;
 
-  --bs-primary: #7d7af1;
+  --bs-primary: #FF534A;
   --bs-primary-dark: #d33a32;
   --bs-secondary: #FDEEE9;
   --bs-black: #111;
   --bs-light: #F1F1F0;
-  --bs-dark: #7d7af1;
+  --bs-dark: #212529;
   --bs-gray: #949494;
   --bs-gray-dark: #51565b;
 
@@ -70,6 +93,11 @@ h6,
   color: var(--heading-color);
 }
 
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
 /* Dropdown */
 .dropdown-menu {
   --bs-dropdown-border-radius: 0;
@@ -104,11 +132,11 @@ h6,
   --bs-btn-color: #fff;
   --bs-btn-bg: var(--bs-primary);
   --bs-btn-border-color: var(--bs-primary);
-  --bs-btn-hover-color: #b6ccfc;
+  --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: var(--bs-primary-dark);
   --bs-btn-hover-border-color: var(--bs-primary-dark);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #7d7af1;
+  --bs-btn-active-color: #fff;
   --bs-btn-active-bg: var(--bs-secondary);
   --bs-btn-active-border-color: var(--bs-secondary);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -195,7 +223,7 @@ h6,
 
   --heading-color: #fff;
   --bs-heading-color: #fff;
-  --bs-link-color: #7d7af1;
+  --bs-link-color: #CCCCCC;
   --bs-link-hover-color: var(--bs-primary);
   --bs-link-color-rgb: 204, 204, 204;
   --bs-link-hover-color-rgb: 131, 169, 172;
@@ -352,7 +380,7 @@ header {
 @media (max-width: 991px) {
   /* mobile menu */
   header {
-    transform: translate3d(-120%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
     transition: transform 0.3s ease-out;
     z-index: 8;
   }
@@ -640,5 +668,4 @@ width: 95%;
   .bg-text:after {
     right: 0;
   }
-
 }
