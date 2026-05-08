@@ -641,26 +641,4 @@ width: 95%;
     right: 0;
   }
 
-  a:link {
-  color: rgb(3, 41, 255);
-  background-color: transparent;
-  text-decoration: none;
-  font:
-}
-a:visited {
-  color: rgb(142, 199, 132);
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: rgb(222, 222, 81);
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 }
