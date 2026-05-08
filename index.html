@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Faye's Portfolio</title>
+  <title>Julie Creative Portfolio</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,6 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <link rel="stylesheet" type="text/css" href="css/vendor.css">
-  <link href="https://unpkg.com" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -172,7 +171,7 @@
         <div class="navigation">
           <div class="site-logo mt-5">
             <a href="index.html">
-              <img src="main-logo.png" alt="logo" class="img-fluid">
+              <img src="images/main-logo.png" alt="logo" class="img-fluid">
             </a>
           </div>
 
@@ -191,34 +190,81 @@
                 <div id="pages-collapse" class="collapse">
                   <ul class="list-unstyled py-3">
                     <li>
-                      <a href="contact.html">Certifications
+                      <a href="single-post.html">Single Post <span class="badge bg-primary">PRO</span></a>
                     </li>
                     <li>
-                      <a href="blog.html">Blog
+                      <a href="single-portfolio.html">Single Portfolio <span class="badge bg-primary">PRO</span></a>
                     </li>
                     <li>
-                      <a href="portfolio-masonry.html">Projects
+                      <a href="contact.html">Contact <span class="badge bg-primary">PRO</span></a>
+                    </li>
+                    <li>
+                      <a href="team.html">My Team <span class="badge bg-primary">PRO</span></a>
+                    </li>
+                    <li>
+                      <a href="blog.html">Blog <span class="badge bg-primary">PRO</span></a>
+                    </li>
+                    <li>
+                      <a href="portfolio-masonry.html">Portfolio Masonry <span class="badge bg-primary">PRO</span></a>
+                    </li>
+                    <li>
+                      <a href="styles.html">Styles <span class="badge bg-primary">PRO</span></a>
                     </li>
                   </ul>
                 </div>
               </li>
+              <li><a href="https://templatesjungle.gumroad.com/l/julia-onepage-portfolio" target="_blank"
+                  class="nav-link d-flex justify-content-between align-items-center fw-bold"><span>Get
+                    PRO</span> <svg width="18" height="18" viewBox="0 0 24 24">
+                    <use xlink:href="#cart"></use>
+                  </svg></a></li>
             </ul>
           </nav>
         </div>
-
-        
         <div class="mt-5">
-            <p>Want to Reach Out?</p>
-            <a href="mailto:faye.h.watson@gmail.com">faye.h.watson@gmail.com</a>
+          <div class="email-links">
+            <a href="mailto:contact@yoursite.com" class="py-3 my-3 border-bottom d-flex">contact@yoursite.com</a>
+          </div>
           <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3">
             <li>
-              
-          <!-- Adding LinkedIn Icon and hyperlink -->
-       <a href="https://www.linkedin.com/in/faye-watson/" target="_blank">
-          <img src="LinkedIn_icon.svg.png" alt="Visit my LinkedIn profile" width="50" height="50">
-       </a></a>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-dark">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
             </li>
           </ul>
+          <div class="py-4 border-top">
+            <p>HTML by <a href="https://templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
+          </div>
         </div>
       </div>
     </header>
@@ -229,47 +275,41 @@
         <!-- content wrapper -->
         <div class="justify-content-center px-1 mx-1 px-xl-5 mx-xl-5">
 
-          <section id="home" class="py-5 bg-text">
+          <section id="home" class="py-5 bg-text" data-text="01">
             <div class="row">
               <div class="col-lg-6">
-                <div>
-                  <img src="banner-image.png" alt="banner" class="img-fluid">
+                <div class="banner-image text-center" data-aos="fade-right">
+                  <img src="images/banner-image.png" alt="banner" class="img-fluid" class="img-fluid">
                 </div>
               </div>
-              <br>
               <div class="col-lg-6">
-                <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5">
-                  <span class="text-muted text-uppercase d-block" data-aos="fade-right">
-                    Highly motivated and ambitious aspiring finance professional.
-                  </span>
-              
-                  <h1 class="banner-title display-xl lh-1 txt-fx slide-up" data-aos="fade-right" data-aos-delay="200">
-                    Faye Watson
-                  </h1>
-              
-                  <div>
-                    <a data-aos="fade-up" data-aos-delay="400" href="https://www.linkedin.com/in/faye-watson/">Visit my LinkedIn!</a>
-                  </div>
+                <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
+                  <span class="text-muted text-uppercase">Designer / Developer</span>
+                  <h1 class="banner-title display-xl lh-1 txt-fx slide-up">Julia Stiles</h1>
+                </div>
               </div>
             </div>
 
             <div class="row">
               <div class="col-lg-3">
                 <div class="icon-box" data-aos="fade-up">
-                  <h3 class="sub-heading">Finance</h3>
-                  <p>Passionate about financial markets and generating alpha-driven, impactful results.</p>
+                  <span>01</span>
+                  <h3 class="sub-heading">UI/UX Design</h3>
+                  <p>At in proin consequat ut cursus venenatis sapien.</p>
                 </div>
               </div>
               <div class="col-lg-3">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <h3 class="sub-heading">Math</h3>
-                  <p>Technical mindset backing Excel-leverage solutions for maximum workflow efficiency.</p>
+                  <span>02</span>
+                  <h3 class="sub-heading">Illustration</h3>
+                  <p>At in proin consequat ut cursus venenatis sapien.</p>
                 </div>
               </div>
               <div class="col-lg-3">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <h3 class="sub-heading">Communication</h3>
-                  <p>Experience analyzing datasets of 100K+ retail brokerage clients and pitching strategic recommendations to executive panels.</p>
+                  <span>03</span>
+                  <h3 class="sub-heading">Graphic Design</h3>
+                  <p>At in proin consequat ut cursus venenatis sapien.</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -278,33 +318,33 @@
             </div>
           </section>
 
-          <section id="about" class="my-5 py-5 bg-text">
+          <section id="about" class="my-5 py-5 bg-text" data-text="02">
             <div class="row d-flex flex-wrap" data-aos="fade-up">
               <div class="col-lg-6 pb-5">
-                <span class="text-muted text-uppercase">Rigorous Academic Background</span>
+                <span class="text-muted text-uppercase">BIODATA</span>
                 <h2 class="display-4 txt-fx slide-up">Education</h2>
                 <div class="data-info py-3" data-aos="fade-up">
-                  <span class="meta-date">Expected 2027</span>
-                  <h3 class="info-title">Honours Bachelors in Mathematical Sciences (HBSc)</h3>
-                  <p>University of Toronto</p>
+                  <span class="meta-date">1998 - 2004</span>
+                  <h3 class="info-title">Bachelors in Engineering in Information Technology</h3>
+                  <p>Harvard School of Science and management</p>
+                </div>
+                <div class="data-info" data-aos="fade-up" data-aos-delay="100">
+                  <span class="meta-date">2004 - 2006</span>
+                  <h3 class="info-title">Masters in Data Analysis</h3>
+                  <p>Harvard School of Science and management</p>
                 </div>
               </div>
               <div class="col-lg-6 pb-5">
-                <h2 class="display-4 txt-fx slide-up">Experience</h2>
+                <h2 class="display-4 txt-fx slide-up">Experiences</h2>
                 <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                  <span class="meta-date">Jan - April 2026</span>
-                  <h3 class="info-title">Scotiabank: Business Risk Management Intern</h3>
-                  <p>Providing institutional traders with risk oversight.</p>
+                  <span class="meta-date">2007 - 2012</span>
+                  <h3 class="info-title">Creative Agency Inc.: Design head</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
                 </div>
                 <div class="data-info" data-aos="fade-up" data-aos-delay="300">
-                  <span class="meta-date">Sep - Dec 2025</span>
-                  <h3 class="info-title">Mackenzie Investments: Business Architect/Business Consultant Intern</h3>
-                  <p>Acting as an internal consultant across finance sectors.</p>
-                </div>
-                <div class="data-info" data-aos="fade-up" data-aos-delay="400">
-                  <span class="meta-date">Jan - Aug 2025</span>
-                  <h3 class="info-title">CIBC Investor's Edge (Self-Directed Retail Brokerage): Business Analyst Intern</h3>
-                  <p>Analyzing 110K+ retail client accounts and presenting stakeholder specific and market informed strategic business recommendations.</p>
+                  <span class="meta-date">2013 - present</span>
+                  <h3 class="info-title">Studio Alpha.: Project Manager</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
                 </div>
               </div>
             </div>
@@ -312,72 +352,200 @@
               <div class="col-lg-6 pb-5">
                 <h2 class="display-4 txt-fx slide-up">Interests</h2>
                 <div class="data-info py-3" data-aos="fade-up">
-                  <span class="meta-date">Finance</span>
-                  <h3 class="info-title">Financial Markets, Investment Banking, Portfolio Management</h3>
-                  <p>Technical Tools: Capital IQ, Bloomberg Terminal, FactSet</p>
+                  <span class="meta-date">2007 - 2012</span>
+                  <h3 class="info-title">Bachelors in Engineering in Information Technology</h3>
+                  <p>Harvard School of Science and management</p>
                 </div>
                 <div class="data-info" data-aos="fade-up" data-aos-delay="100">
-                  <span class="meta-date">Academics</span>
-                  <h3 class="info-title">Mathematics</h3>
-                  <p>Interested in Financial Math concepts including Black-Scholes formula, Nonlinear Dynamics and Chaos Theory.</p>
+                  <span class="meta-date">2013 - present</span>
+                  <h3 class="info-title">Studio Alpha.: Project Manager</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
                 </div>
               </div>
               <div class="col-lg-6 pb-5">
-                <h2 class="display-4 txt-fx slide-up">Projects</h2>
+                <h2 class="display-4 txt-fx slide-up">References</h2>
                 <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                  <span class="meta-date">April 2026/span>
-                  <h3 class="info-title">Project Placeholder</h3>
-                  <p>Here is an example.</p>
+                  <span class="meta-date">1998 - 2004</span>
+                  <h3 class="info-title">Dr. Stephen H. King</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
                 </div>
                 <div class="data-info" data-aos="fade-up" data-aos-delay="300">
-                  <span class="meta-date">Date</span>
-                  <h3 class="info-title">CME April 2026 Trading Competition</h3>
-                  <p>I recently competed within the CME trading competiton, which was an exciting and challenging experience given that I
-                    recently visited the Chicago Mercantile Exchange (CME) and at my most recent internship at Scotiabank, I conducted various
-                    reports that involved information pertaining to the CME. This experience was a nice combination of my work experience and 
-                    provided me with a broader understanding of futures trading.</p>
-                </div>
-                <div class="data-info-2" data-aos="fade-up" data-aos-delay="400">
-                  <span class="meta-date">March 2026</span>
-                  <h3 class="info-title">Globe and Mail Paper Trading Competition</h3>
-                  <p>Competing as part of the paper trading competition for the Globe and Mail.</p>
+                  <span class="meta-date">2004 - 2006</span>
+                  <h3 class="info-title">Dr. David Howard</h3>
+                  <p>iacentem substantiales um se sed esse haec Possit facis qui a a a patriam.</p>
                 </div>
               </div>
             </div>
           </section>
 
-          <section id="experience" class="my-5 py-5 bg-text">
+          <section id="experience" class="my-5 py-5 bg-text" data-text="03">
             <div class="row justify-content-center mb-5">
               <div class="col-lg-6" data-aos="fade-up">
-                <span class="text-muted text-uppercase">Introduction</span>
-                <h2 class="display-1 txt-fx slide-up">Experienced Analytical Background & Strong Communicator</h2>
-                <p>A strong technical and soft skill understanding.</p>
+                <span class="text-muted text-uppercase">introduction</span>
+                <h2 class="display-1 txt-fx slide-up">Experienced Creative mind</h2>
+                <p>Labore accusam in modo compungi, iacentem substantiales um se sed esse haec.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="info-element py-4" data-aos="fade-up">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th>Age</th>
+                        <td>22</td>
+                      </tr>
+                      <tr>
+                        <th>Residence</th>
+                        <td>United States</td>
+                      </tr>
+                      <tr>
+                        <th>Address</th>
+                        <td>A City, Florida, 32104</td>
+                      </tr>
+                      <tr>
+                        <th>E-mail</th>
+                        <td><a href="#">hello@yourwebsite.com</a></td>
+                      </tr>
+                      <tr class="no-border-bottom">
+                        <th>Phone</th>
+                        <td>+2345 344 678 563</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="skill-chart py-4" data-aos="fade-up">
+                  <ul class="skill-chart-list list-unstyled">
+                    <li>
+                      <div class="chart-header d-flex justify-content-between">
+                        <span class="skill-title">Adobe Photoshop</span>
+                        <span class="percentage">90%</span>
+                      </div>
+                      <div class="chart-border">
+                        <div class="chart-percentage ninety-percent"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="chart-header d-flex justify-content-between">
+                        <span class="skill-title">Adobe Illustrator</span>
+                        <span class="percentage">75%</span>
+                      </div>
+                      <div class="chart-border">
+                        <div class="chart-percentage ninety-percent"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="chart-header d-flex justify-content-between">
+                        <span class="skill-title">Figma</span>
+                        <span class="percentage">80%</span>
+                      </div>
+                      <div class="chart-border">
+                        <div class="chart-percentage eighty-percent"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="chart-header d-flex justify-content-between">
+                        <span class="skill-title">Adobe After Effect</span>
+                        <span class="percentage">70%</span>
+                      </div>
+                      <div class="chart-border">
+                        <div class="chart-percentage seventy-percent"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="chart-header d-flex justify-content-between">
+                        <span class="skill-title">Photography</span>
+                        <span class="percentage">95%</span>
+                      </div>
+                      <div class="chart-border">
+                        <div class="chart-percentage ninety-five-percent"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>
 
-          <section id="portfolio" class="my-5 py-5 bg-text">
+          <section id="portfolio" class="my-5 py-5 bg-text" data-text="04">
             <div class="section-header my-5" data-aos="fade-up">
               <div class="row justify-content-center g-5">
                 <div class="col-lg-4">
-                  <span class="text-muted text-uppercase">Recent Projects</span>
+                  <span class="text-muted text-uppercase">some of my recent works</span>
                   <h2 class="display-1 txt-fx slide-up">Portfolio</h2>
                 </div>
                 <div class="col-lg-4" data-aos="fade-up">
-                  <p>Here is some info on these projects.</p>
+                  <p>Labore accusam in modo compungi, iacentem substantiales um se sed esse haec.</p>
                   <a href="portfolio-masonry.html" class="btn btn-dark px-5 py-4">View All</a>
                 </div>
               </div>
             </div>
+            <div class="swiper portfolio-Swiper portfolio-content py-4" data-aos="fade-up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="single-portfolio.html" title="portfolio details"><img src="images/port-item1.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">nostaligia portrait copy</div>
+                    <a href="#" class="image-format bg-orange">svg</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="single-portfolio.html" title="portfolio details"><img src="images/port-item2.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">Workoholic city design</div>
+                    <a href="#" class="image-format bg-orange">svg</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="single-portfolio.html" title="portfolio details"><img src="images/port-item3.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">Zoo keeper envelope</div>
+                    <a href="#" class="image-format bg-blue">psd</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="single-portfolio.html" title="portfolio details"><img src="images/port-item1.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">nostaligia portrait</div>
+                    <a href="#" class="image-format bg-blue">png</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image-holder">
+                    <a href="single-portfolio.html" title="portfolio details"><img src="images/port-item2.jpg"
+                        alt="portfolio" class="img-fluid"></a>
+                  </div>
+                  <div class="caption d-flex justify-content-between align-items-center">
+                    <div class="title">nostaligia portrait copy</div>
+                    <a href="#" class="image-format">svg</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination mt-5"></div>
+            </div>
           </section>
 
-          <section id="contact" class="my-5 py-5 bg-text">
+          <section id="contact" class="my-5 py-5 bg-text" data-text="05">
             <div class="container">
               <div class="row justify-content-center mb-5">
                 <div class="col-lg-6" data-aos="fade-up">
                   <span class="text-muted text-uppercase">Personal Info</span>
                   <h2 class="display-1 txt-fx slide-up">Contact Me</h2>
-                  <p>Insert contact info here.</p>
+                  <p>Labore accusam in modo compungi, iacentem substantiales um se sed esse haec.</p>
                 </div>
               </div>
               <div class="row d-flex g-5">
@@ -389,13 +557,15 @@
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse1" aria-expanded="true"
                           aria-controls="accordion-collapse1">
-                          What experience do you have in this industry?
+                          What experience do you have in my industry?
                         </button>
                       </h2>
                       <div id="accordion-collapse1" class="accordion-collapse collapse show"
                         aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
                         <div class="accordion-body">
-                          Info here.
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                       </div>
                     </div>
@@ -404,13 +574,15 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse2" aria-expanded="false"
                           aria-controls="accordion-collapse2">
-                          How do you do this?
+                          How many clients do you typically work with at once?
                         </button>
                       </h2>
                       <div id="accordion-collapse2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample2">
                         <div class="accordion-body">
-                          Info here.
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                       </div>
                     </div>
@@ -419,13 +591,15 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse3" aria-expanded="false"
                           aria-controls="accordion-collapse3">
-                          What are you interested in?
+                          Do you have the capacity to take on this project right now?
                         </button>
                       </h2>
                       <div id="accordion-collapse3" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample2">
                         <div class="accordion-body">
-                          Info Here
+                          Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </div>
                       </div>
                     </div>
@@ -472,10 +646,6 @@
     crossorigin="anonymous"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
-  <script src="https://unpkg.com"></script>
-<script>
-  AOS.init();
-</script>
 </body>
 
 </html>
