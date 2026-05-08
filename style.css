@@ -1,6 +1,7 @@
 :root,
-body { background: red !important; }
-[data-bs-theme=light] {
+
+[body { background: red !important; }
+data-bs-theme=light] {
   --heading-font: "Roboto", Verdana, serif;
   --heading-font-weight: 700;
   --heading-color: var(--bs-dark);
